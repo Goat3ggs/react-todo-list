@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/react-todo-list/', // <- asta e cheia pentru GitHub Pages
   plugins: [
     react(),
     tailwindcss(),
